@@ -1,7 +1,7 @@
 {
   "name": "private-integration",
   "author": "Moralis",
-  "version": "2.0.0-alpha.1",
+  "version": "2.0.0-alpha.2",
   "license": "MIT",
   "private": true,
   "main": "./lib/index.js",
@@ -23,9 +23,9 @@
     "typescript": "^4.5.5"
   },
   "dependencies": {
-    "@ernotestalis/core": "^2.0.0-alpha.1",
-    "@ernotestalis/server": "^2.0.0-alpha.1",
-    "@ernotestalis/evm": "^2.0.0-alpha.1",
-    "@ernotestalis/evm-api": "^2.0.0-alpha.1"
+    "@ernotestalis/core": "^2.0.0-alpha.2",
+    "@ernotestalis/server": "^2.0.0-alpha.2",
+    "@ernotestalis/evm": "^2.0.0-alpha.2",
+    "@ernotestalis/evm-api": "^2.0.0-alpha.2"
   }
 }
