@@ -1,0 +1,24 @@
+{
+  "name": "ernotestalis",
+  "author": "Moralis",
+  "version": "2.0.0-alpha.1",
+  "license": "MIT",
+  "private": true,
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "sideEffects": false,
+  "scripts": {
+    "format": "prettier . --write",
+    "format:check": "prettier . --check",
+    "lint": "eslint . --ext .js,.ts,.tsx,jsx",
+    "clean": "rm -rf lib && rm -rf lib.esm && rm -rf tsconfig.tsbuildinfo",
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "@ernotestalis/core": "^2.0.0-alpha.1",
+    "@ernotestalis/server": "^2.0.0-alpha.1",
+    "@ernotestalis/evm-api": "^2.0.0-alpha.1",
+    "@ernotestalis/evm": "^2.0.0-alpha.1"
+  }
+}
