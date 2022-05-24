@@ -13,6 +13,7 @@
     "@ernotestalis/server": "2.0.0-alpha.1"
   },
   "changesets": [
-    "dull-grapes-visit"
+    "dull-grapes-visit",
+    "tame-taxis-laugh"
   ]
 }
