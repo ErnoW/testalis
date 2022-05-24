@@ -53,5 +53,7 @@
       "packages/solConnectors/*"
     ]
   },
-  "dependencies": {}
+  "dependencies": {
+    "@changesets/cli": "^2.22.0"
+  }
 }

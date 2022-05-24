@@ -1,5 +1,5 @@
 {
-  "name": "@ernotestalis/test-app-all",
+  "name": "private-test-app-all",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
