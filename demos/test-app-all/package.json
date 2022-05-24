@@ -19,8 +19,8 @@
     "dev": "craco start",
     "build": "craco build",
     "eject": "craco eject",
-    "format": "prettier . --write",
-    "format:check": "prettier . --check"
+    "format": "prettier '**/*.+(js|ts|tsx|json)' --write",
+    "format:check": "prettier '**/*.+(js|ts|tsx|json)' --check"
   },
   "eslintConfig": {
     "extends": [
