@@ -28,6 +28,6 @@
   "dependencies": {
     "@ernotestalis/core": "^2.0.0-alpha.1",
     "jest": "^27.4.7",
-    "parse": "^3.4.1"
+    "parse": "^3.4.4"
   }
 }
