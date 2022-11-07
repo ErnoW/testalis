@@ -393,32 +393,18 @@
     babel-plugin-polyfill-regenerator "^0.3.0"
     semver "^6.3.0"
 
-"@babel/runtime-corejs3@7.14.7":
-  version "7.14.7"
-  resolved "https://registry.yarnpkg.com/@babel/runtime-corejs3/-/runtime-corejs3-7.14.7.tgz#0ef292bbce40ca00f874c9724ef175a12476465c"
-  integrity sha512-Wvzcw4mBYbTagyBVZpAJWI06auSIj033T/yNE0Zn1xcup83MieCddZA7ls3kme17L4NOGBrQ09Q+nKB41RLWBA==
+"@babel/runtime-corejs3@7.17.8":
+  version "7.17.8"
+  resolved "https://registry.yarnpkg.com/@babel/runtime-corejs3/-/runtime-corejs3-7.17.8.tgz#d7dd49fb812f29c61c59126da3792d8740d4e284"
+  integrity sha512-ZbYSUvoSF6dXZmMl/CYTMOvzIFnbGfv4W3SEHYgMvNsFTeLaF2gkGAF4K2ddmtSK4Emej+0aYcnSC6N5dPCXUQ==
   dependencies:
-    core-js-pure "^3.15.0"
+    core-js-pure "^3.20.2"
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@7.15.4":
-  version "7.15.4"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.15.4.tgz#fd17d16bfdf878e6dd02d19753a39fa8a8d9c84a"
-  integrity sha512-99catp6bHCaxr4sJ/DbTGgHS4+Rs2RVd2g7iOap6SLGPDknRK9ztKNsE/Fg6QhSeh1FGE5f6gHGQmvvn3I3xhw==
-  dependencies:
-    regenerator-runtime "^0.13.4"
-
-"@babel/runtime@^7.10.4":
+"@babel/runtime@7.18.0", "@babel/runtime@^7.10.4", "@babel/runtime@^7.5.5":
   version "7.18.0"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.18.0.tgz#6d77142a19cb6088f0af662af1ada37a604d34ae"
   integrity sha512-YMQvx/6nKEaucl0MY56mwIG483xk8SDNdlUwb2Ts6FUpr7fm85DxEmsY18LXBNhcTz6tO6JwZV8w1W06v8UKeg==
-  dependencies:
-    regenerator-runtime "^0.13.4"
-
-"@babel/runtime@^7.5.5":
-  version "7.17.8"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.17.8.tgz#3e56e4aff81befa55ac3ac6a0967349fd1c5bca2"
-  integrity sha512-dQpEpK0O9o6lj6oPu0gRDbbnk+4LeHlNcBpspf6Olzt3GIX4P1lWF1gS+pHLDFlaJvbR6q7jCfQ08zA4QJBnmA==
   dependencies:
     regenerator-runtime "^0.13.4"
 
@@ -2313,10 +2299,10 @@
   resolved "https://registry.yarnpkg.com/@types/parse-json/-/parse-json-4.0.0.tgz#2f8bb441434d163b35fb8ffdccd7138927ffb8c0"
   integrity sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==
 
-"@types/parse@^2.18.13":
-  version "2.18.13"
-  resolved "https://registry.yarnpkg.com/@types/parse/-/parse-2.18.13.tgz#692a1324adf06014ae35c2ce524de9d2f704ecd8"
-  integrity sha512-FtdfzurcGArAEHAraJUfkLz9IDeIIArPzReX4Z810A+RKkwPdNiUrwxbLJZSw0Ya5wu4jixCJR6BdxnFZ7Q6dA==
+"@types/parse@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@types/parse/-/parse-3.0.0.tgz#ec68250ba69e89ab26bd815fcc4f51037fdadb11"
+  integrity sha512-VSxbuejEniggKjbn/HD5JymKiE7CmL9b3HQSH5o+/zOFAHq8E+8e6+XbzuXGIoNFwoTPr/JPeddf/9MbWVJg4g==
   dependencies:
     "@types/node" "*"
 
@@ -3852,10 +3838,10 @@ core-js-compat@^3.21.0:
     browserslist "^4.19.1"
     semver "7.0.0"
 
-core-js-pure@^3.15.0:
-  version "3.21.1"
-  resolved "https://registry.yarnpkg.com/core-js-pure/-/core-js-pure-3.21.1.tgz#8c4d1e78839f5f46208de7230cebfb72bc3bdb51"
-  integrity sha512-12VZfFIu+wyVbBebyHmRTuEE/tZrB4tJToWcwAMcsp3h4+sHR+fMJWbKpYiCRWlhFBq+KNyO8rIV9rTkeVmznQ==
+core-js-pure@^3.20.2:
+  version "3.26.0"
+  resolved "https://registry.yarnpkg.com/core-js-pure/-/core-js-pure-3.26.0.tgz#7ad8a5dd7d910756f3124374b50026e23265ca9a"
+  integrity sha512-LiN6fylpVBVwT8twhhluD9TzXmZQQsr2I2eIKtWNbZI1XMfBT7CV18itaN6RA7EtQd/SDdRx/wzvAShX2HvhQA==
 
 core-util-is@1.0.2:
   version "1.0.2"
@@ -8736,17 +8722,17 @@ parse5@6.0.1:
   resolved "https://registry.yarnpkg.com/parse5/-/parse5-6.0.1.tgz#e1a1c085c569b3dc08321184f19a39cc27f7c30b"
   integrity sha512-Ofn/CTFzRGTTxwpNEs9PP93gXShHcTq255nzRYSKe8AkVpZY7e1fpmTfOyoIvjP5HG7Z2ZM7VS9PPhQGW2pOpw==
 
-parse@^3.4.1:
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/parse/-/parse-3.4.1.tgz#b10a622ac64dc406cd97dd47756e65b7a7291643"
-  integrity sha512-XTMaHfcOwAOiWLraNtPbCzR8o94ZWjOfaZDMM2jZ1ZDB5twtK1B82lPa+N197efZhcQ+QFbW/eDJsBybD48aSQ==
+parse@^3.5.0:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/parse/-/parse-3.5.0.tgz#603c5b2ee64252b70d4f67e3d36f37dbf0a78c4a"
+  integrity sha512-F5YvP95ugBGadB67wj5Vu0zM9xX6UZpWioswq9s0dtTSM7darETVuPbuqnoNJnocSHLxB3rKQhBBa2fjELU1+w==
   dependencies:
-    "@babel/runtime" "7.15.4"
-    "@babel/runtime-corejs3" "7.14.7"
+    "@babel/runtime" "7.18.0"
+    "@babel/runtime-corejs3" "7.17.8"
     idb-keyval "6.0.3"
     react-native-crypto-js "1.0.0"
     uuid "3.4.0"
-    ws "7.5.1"
+    ws "8.6.0"
     xmlhttprequest "1.8.0"
   optionalDependencies:
     crypto-js "4.1.1"
@@ -10972,15 +10958,15 @@ ws@7.4.6:
   resolved "https://registry.yarnpkg.com/ws/-/ws-7.4.6.tgz#5654ca8ecdeee47c33a9a4bf6d28e2be2980377c"
   integrity sha512-YmhHDO4MzaDLB+M9ym/mDA5z0naX8j7SIlT8f8z+I0VtzsRbekxEutHSme7NPS2qE8StCYQNUnfWdXta/Yu85A==
 
-ws@7.5.1:
-  version "7.5.1"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-7.5.1.tgz#44fc000d87edb1d9c53e51fbc69a0ac1f6871d66"
-  integrity sha512-2c6faOUH/nhoQN6abwMloF7Iyl0ZS2E9HGtsiLrWn0zOOMWlhtDmdf/uihDt6jnuCxgtwGBNy6Onsoy2s2O2Ow==
-
 ws@7.5.3:
   version "7.5.3"
   resolved "https://registry.yarnpkg.com/ws/-/ws-7.5.3.tgz#160835b63c7d97bfab418fc1b8a9fced2ac01a74"
   integrity sha512-kQ/dHIzuLrS6Je9+uv81ueZomEwH0qVYstcAQ4/Z93K8zeko9gtAbttJWzoC5ukqXY1PpoouV3+VSOqEAFt5wg==
+
+ws@8.6.0:
+  version "8.6.0"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-8.6.0.tgz#e5e9f1d9e7ff88083d0c0dd8281ea662a42c9c23"
+  integrity sha512-AzmM3aH3gk0aX7/rZLYvjdvZooofDu3fFOzGqcSnQ1tOcTWwhM/o+q++E8mAyVVIyUdajrkzWUGftaVSDLn1bw==
 
 ws@^5.1.1:
   version "5.2.3"
